@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='path_integrator' name='central_complex_plot_node' type='central_complex_plot.py' output='screen'>
+    </node>
+</launch>
+

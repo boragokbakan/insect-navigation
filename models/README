@@ -1,0 +1,3 @@
+Please move all the folders here into ~/.gazebo/models directory!
+
+The turtlebot3_waffle_no_collision model is only used for the maze with bridge, and should be placed in the Gazebo world manually, as launch files do not support .sdf imports.

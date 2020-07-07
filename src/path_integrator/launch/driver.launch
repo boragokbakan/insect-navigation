@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='path_integrator' name='driver_node' type='driver.py' output='screen'>
+    </node>
+</launch>
+

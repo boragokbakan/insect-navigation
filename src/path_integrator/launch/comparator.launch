@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='path_integrator' name='comparator_node' type='comparator.py' output='screen'>
+    </node>
+</launch>
+

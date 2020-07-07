@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='path_integrator' name='landmark_assess_node' type='landmark_assess.py' output='screen'>
+    </node>
+</launch>
+
