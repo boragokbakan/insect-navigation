@@ -1,4 +1,4 @@
-# SETUP:
+## SETUP:
 
 In order to setup the modules, the following steps should be followed:
 
@@ -11,7 +11,7 @@ In order to setup the modules, the following steps should be followed:
 Finally,
 -The messages and services be compiled by running "catkin_make" from the terminal inside the ~/catkin_ws directory.
 
-# RUNNING NODES:
+## RUNNING NODES:
 
 PI and LN nodes can be launched by using roslaunch, this will also bring up a Gazebo world with 3D models and a custom turtlebot3 (except for helper nodes like driver, comparator, landmark_assess, central_complex_plot). 
 
