@@ -2,14 +2,14 @@
 
 In order to setup the modules, the following steps should be followed:
 
--ROS Kinetic should be installed following the instructions here: http://wiki.ros.org/kinetic/Installation
--Turtlebot ROS packages should be installed: http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup
--The contents of the "model" directory should be moved under "~/.gazebo/models" directory.
--The XACRO files in "xacro_files" directory should be moved under "~/catkin_ws/src/turtlebot3/turtlebot3_description/urdf/", replacing the existing files.
--The directories inside the "src" directory should be moved under "~/catkin_ws/src/".
+* ROS Kinetic should be installed following the instructions here: http://wiki.ros.org/kinetic/Installation
+* Turtlebot ROS packages should be installed: http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup
+* The contents of the "model" directory should be moved under "~/.gazebo/models" directory.
+* The XACRO files in "xacro_files" directory should be moved under "~/catkin_ws/src/turtlebot3/turtlebot3_description/urdf/", replacing the existing files.
+* The directories inside the "src" directory should be moved under "~/catkin_ws/src/".
 
 Finally,
--The messages and services be compiled by running "catkin_make" from the terminal inside the ~/catkin_ws directory.
+* The messages and services be compiled by running "catkin_make" from the terminal inside the ~/catkin_ws directory.
 
 ## RUNNING NODES:
 
