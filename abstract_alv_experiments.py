@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-'''ABSTRACT ALV SIMULATION CODE'''
+'''ABSTRACT ALV SIMULATION CODE, RUNS STANDALONE'''
 
 size_y, size_x  = (25,25)
 nest_y,nest_x = (12,3) #target coordinates
