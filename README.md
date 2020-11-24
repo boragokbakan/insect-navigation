@@ -1,6 +1,8 @@
 # Overview
 This project contains the source code that accompanies my final year project. The project consists of experiments assessing various Path Integration and Landmark-based Navigation techniques, varying in biological plausibility. The report aims to find a biologically plausible methods that have low-overhead and are possibly implementable on analog robots, like the _Central Complex_ and _Average Landmark Vector_ models.
 
+Path Integrator models are assessed based on their robustness against noise and precision, whereas Landmark-based Navigation models are assessed on their accuracy of homing after the PI module is zeroed (i.e. when the agent falsely thinks it's home), robustness against occlusion, and emergent behaviours like obstacle avoidance, if any.
+
 ## SETUP:
 
 In order to setup the modules, the following steps should be followed:
