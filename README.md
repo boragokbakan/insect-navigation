@@ -5,7 +5,7 @@ Path Integrator models are assessed based on their robustness against noise and 
 
 ## SETUP:
 
-In order to setup the modules, the following steps should be followed:
+In order to setup the modules, the following steps should be followed (assuming your workspace is on `~/catkin_ws`):
 
 * ROS Kinetic should be installed following the instructions here: http://wiki.ros.org/kinetic/Installation
 * Turtlebot ROS packages should be installed: http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup
@@ -14,7 +14,7 @@ In order to setup the modules, the following steps should be followed:
 * The directories inside the `src` directory should be moved under `~/catkin_ws/src/`.
 
 Finally,
-* The messages and services be compiled by running "catkin_make" from the terminal inside the ~/catkin_ws directory.
+* The messages and services be compiled by running `catkin_make` from the terminal inside the `~/catkin_ws` directory.
 
 ## RUNNING NODES:
 
